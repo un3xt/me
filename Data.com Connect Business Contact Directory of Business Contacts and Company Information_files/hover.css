@@ -1,0 +1,151 @@
+.hover-bl{background:url(../images/hover/bl.png) 0 100% no-repeat;height:20px;overflow:hidden;width:20px;}
+.hover-bm{background:url(../images/hover/bm.png) 0 100% repeat-x;height:20px;overflow:hidden;}
+.hover-br{background:url(../images/hover/br.png) 100% 100% no-repeat;height:20px;overflow:hidden;width:20px;}
+
+.hover-container{max-width:900px;padding:5px;width:auto;}
+.hover-close{
+    position:absolute;
+    margin-left:-14px;
+    margin-top:-7px;
+}
+.hover-container .hover-table{border-collapse:collapse;height:100%;width:auto;}
+
+.hover-control-bar button{border-width:1px;}
+
+.hover-content{margin:5px;}
+
+#progressBar{background:url(../images/search/ajax-loader.gif) 0 0 no-repeat;min-height:32px;min-width:32px;width:auto;height: auto;}
+#progressBar .message{margin-left:42px; font-size:17px;font-weight:bold;line-height:32px;width:100%;}
+#progressBar .message strong{color:black;}
+
+#confirm .hover-content{min-width:400px;}
+
+.hover-header{clear:both;margin:5px;}
+
+.hover-ml{background:url(../images/hover/ml.png) 0 0 repeat-y;overflow:hidden;width:20px;}
+.hover-mm{background:#fff;vertical-align:top;}
+.hover-mr{background:url(../images/hover/mr.png) 100% 0 repeat-y;overflow:hidden;width:20px;}
+
+.hover-title{color:#146791;float:none;font-size:17px;font-weight:700;}
+
+.hover-tl{background:url(../images/hover/tl.png) 0 0 no-repeat;height:20px;overflow:hidden;width:20px;}
+.hover-tm{background:url(../images/hover/tm.png) 0 0 repeat-x;height:20px;overflow:hidden;}
+.hover-tr{background:url(../images/hover/tr.png) 100% 0 no-repeat;height:20px;overflow:hidden;width:20px;}
+
+/* welcome hover / pardon our dust */
+.welcome-hover{width:390px;}
+.welcome-hover-feature-text{
+    padding-bottom: 14px;
+}
+.welcome-hover-feature-list{
+    margin: 0px;
+    padding: 0px 0px 12px 0px;
+    list-style: none;
+}
+.welcome-hover-feature-item{
+    padding: 5px 0px;
+}
+
+.welcome-hover-prelease-text{color:#999999;font-size:11px;}
+.welcome-hover-prelease-text a{white-space:nowrap;}
+/* general upload file */
+#uploadProcessing .hover-content, 
+#uploadSuccessful .hover-content,
+#uploadFail .hover-content,
+#removeFail .hover-content {
+	width: 480px;
+}
+
+#uploadProcessing .body,
+#uploadSuccessful .body,
+#uploadFail .body,
+#removeFail .body {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#uploadProcessing .body {
+	text-align: center;
+}
+
+#removeFail .remove-fail {
+	color: #ab2900;
+	font-weight: bold;
+}
+
+/* ecommerce hovers */
+.ecommerce-flow-container{width:600px;height:480px;padding:15px;}
+.ecommerce-flow-container.card-only{height:420px;}
+.captcha-hover-check .hover-content{width:450px;}
+.shopping-cart-hover-add-all-confirmation {width: 320px;}
+
+/* my saved searches */
+.search-hover-saveyoursearch{width:auto;}
+.search-hover-saveyoursearch .hover-content{width:422px;}
+.search-hover-saveyoursearch .hover-content{margin-right:20px;}
+.search-hover-editsearchlist{width: 573px;}
+.search-hover-editsearchlist #msgWarning{width:100%;}
+
+/* auto renewal hover */
+.auto-renewal-hover-container{width:500px;}
+
+.company-hover-update-rejection {
+	width: 600px;
+}
+
+.company-hover-update-rejection #rejectionBody {
+	width: 520px;
+}
+
+#addAContact .hover-content,
+#addACompany .hover-content {
+	padding: 10px;
+}
+
+#addAContact .hover-header,
+#addACompany .hover-header {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.contact-update-status-container {
+	padding: 10px;
+}
+
+.update-contact-status-label input, .update-contact-status-label span {
+	vertical-align: middle;
+	margin-top: 0px;
+}
+
+.update-contact-status-label.live:after {
+	content: "*";
+}
+
+/* domain management */
+.company-add-update-container {
+	padding: 5px;
+}
+
+.company-add-update-container td {
+	padding: 5px;
+}
+
+#addDomainNameLabel,
+#addDomainTypeLabel {
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+
+#addDomainName {
+	width: 250px; line-height: 23px;
+}
+
+#updateDomainNameLabel,
+#updateDomainTypeLabel {
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+
+#updateDomainName {
+	width: 250px; line-height: 23px;
+}

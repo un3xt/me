@@ -1,0 +1,132 @@
+@CHARSET "ISO-8859-1";
+
+.login-body {
+	margin-top: 23px;
+	margin-left: 34px;
+	margin-right: 34px;
+}
+
+.login-welcome {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #333333;
+	margin-bottom: 23px;
+}
+
+.login-container {
+	overflow: hidden;
+	border: 1px solid #cdcdcd;
+	border-radius: 4px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	box-shadow: 0 0 6px #dddddd;
+	-webkit-box-shadow: 0 0 6px #dddddd;
+}
+
+.login-container .content {
+	margin-left: 46px;
+	margin-top: 30px;
+	width: 354px;
+}
+
+.login-container.fields {
+	width: 400px;
+	min-height: 295px;
+}
+
+.login-container.fields div.first,
+.login-container.fields div.middle {
+	margin-bottom: 20px;
+}
+
+.login-container.fields table.captcha-question {
+	margin-bottom: 10px;
+}
+	
+.login-container.fields table.captcha-question .captcha-buttons {
+	vertical-align: middle;
+	padding-left: 4px;
+}
+
+.login-container.fields table.captcha-question tfoot td {
+	text-align: right;
+}
+
+.login-container.fields table.captcha-question tfoot .recaptcha-logo {
+	background: url(../../images/nonlogged/recaptcha-logo-small.png) no-repeat;
+	width: 60px;
+	height: 12px;
+	margin-top: 1px;
+}
+
+.login-container.fields .title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #333333;
+}
+
+.login-container.fields input.text {
+	border: 1px solid #cdcdcd;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	box-shadow: inset 0px 0px 4px #dddddd;
+	-webkit-box-shadow: inset 0px 0px 4px #dddddd;
+}
+
+.login-container.fields input.text {
+	position: static;
+	width: 288px;
+	font-size: 14px;
+	padding: 12px 0px 12px 10px;
+}
+
+/**
+ * Used by IE7/8 for the text input placeholder.
+ * Dimensions should match text input style above plus the simple border width and height.
+ */
+.login-container .ghost-text, .ghost-text-lighter {
+	width: 288px;
+	font-size: 14px;
+	padding: 13px 1px 13px 11px;
+}
+
+.login-container.fields div.recaptcha_image_container {
+	padding: 4px;
+	background-color: white;
+}
+
+.login-container.marketing-message {
+	width: 480px;
+	height: 295px;
+}
+
+.nonlogged-container-foot {
+	margin-left: 46px;
+	padding-top: 23px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#msgHdr {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.login-bicons {
+	background: url(../../images/common/loginBicons.jpg) no-repeat scroll 0 0 transparent;
+	height: 75px;
+	width: 25px;
+}
+
+#recaptcha_response_field{
+    background-color: #ffffff;
+}
+
+.checkbox {
+	display: inline-block;
+}
